@@ -31,7 +31,7 @@ go run deploy_cluster.go
 
 **Video URL**
 
-[URL for the video showing how you produced the above TPS.]
+https://youtu.be/sNZp1rSXUds
 
 **Output From `stats` Tool**
 ```
@@ -118,7 +118,10 @@ Timestamp		Syncing	TPS	Pend.TX	Conf.TX	BPS	SBPS	CPU	ROOT	CHAIN/SHARD-HEIGHT
 
 **Cluster Configurations**
 [Provide the link to the cluster config file (cluster_config_template.json, checked in to your forked repo) used in your clusters. 
+https://github.com/anshulkusa/goquarkchain/blob/master/cluster_config_template.json
+
 If deployer is used, please provide deployConfig.json as well (password is not needed).]
+https://github.com/anshulkusa/goquarkchain/blob/master/deployConfig.json
 
 **Additional Comment**
 
