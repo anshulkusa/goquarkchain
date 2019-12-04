@@ -1,0 +1,48 @@
+{
+  "DockerName": "quarkchaindocker/goquarkchain",
+  "Hosts": [
+    {
+      "IP": "10.168.15.192",
+      "Port": 22,
+      "User": "root",
+      "Password": "goquarkchain",
+      "IsMaster":true,
+      "SlaveNumber": 16,
+      "ClusterID": 0
+    },
+    {
+      "IP": "10.168.15.193",
+      "Port": 22,
+      "User": "root",
+      "Password": "goquarkchain",
+      "IsMaster":false,
+      "SlaveNumber": 16,
+      "ClusterID": 0
+    },
+    {
+      "IP": "10.168.15.194",
+      "Port": 22,
+      "User": "root",
+      "Password": "goquarkchain",
+      "IsMaster":true,
+      "SlaveNumber": 32,
+      "ClusterID": 1
+    },
+    {
+      "IP": "10.168.15.195",
+      "Port": 22,
+      "User": "root",
+      "Password": "goquarkchain",
+      "IsMaster":true,
+      "SlaveNumber": 32,
+      "ClusterID": 2
+    }
+  ],
+  "CHAIN_SIZE": 32,
+  "SHARD_SIZE": 4,
+  "ExtraClusterConfig": {
+    "TargetRootBlockTime": 20,
+    "TargetMinorBlockTime": 4,
+    "GasLimit": 96000000
+  }
+}
